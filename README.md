@@ -18,3 +18,20 @@ The parameters of the function would form new bindings to the same values, i.e.,
 Since functions are also values, we can pass them as arguments just like we did with the numbers.
 The goal of this task is to exercise this concept. The file callbackFunctions.js has the starter code for this task; update the code according to the comments there.
 
+## Task 2: Functions as return values
+Let's start with an 'add function' example 
+
+let  add = function(a,b) {
+       let c = a + b;
+      return c; <--  when we use a binding with the return keyword its value will be passed to the
+                                            caller of the function
+};
+
+We can then create another binding to refer to the value returning from the function call
+
+let z = add(5,6);
+
+Since functions are values, we can return them from other functions just like we did with numbers.
+The goal of this task is to exercise returning functions as values.
+
+The file returningFunctions.js contains the starter code for this task. Complete the code according to the comments there.

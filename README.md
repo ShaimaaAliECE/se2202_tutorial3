@@ -34,4 +34,8 @@ let z = add(5,6);
 Since functions are values, we can return them from other functions just like we did with numbers.
 The goal of this task is to exercise returning functions as values.
 
-The file returningFunctions.js contains the starter code for this task. Complete the code according to the comments there.
+The file returningFunctions.js contains the starter code for this task. Complete the code according to the instructions in the comments.
+
+## Task 3: Closures
+
+The goal of this task is to practice working with closures. The file closures.js contains the starter code for this task. Complete the code according to the instructions in the comments.

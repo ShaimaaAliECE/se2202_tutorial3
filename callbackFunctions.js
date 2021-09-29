@@ -9,7 +9,7 @@ let even_predicat = function (value)
 let odd_predicat = function (value)
 {
     /*
-    check whether the value is even 
+    check whether the value is odd 
      return true if the value is even or false when the value is odd
     */ 
 };
@@ -43,10 +43,11 @@ let check = function (predicat,value)
 };
 
 
+// fix notes in the repo.
 console.log(/* call the check function here to check whether 9 is even */);
 console.log(/* call the check function here to check whether 9 is odd */);
-console.log(/* call the check function here to check whether 9 is odd */);
-console.log(/* call the check function here to check whether 8 is even */);
+console.log( /* call the check function here to check whether 8 is even */);
+console.log(/* call the check function here to check whether 8 is odd */);
 let x;
 console.log(/* call the check function here to check whether x is undefined */);
 console.log(/* call the check function here to check whether x is null */);
